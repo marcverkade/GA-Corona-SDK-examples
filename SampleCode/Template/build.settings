@@ -1,0 +1,31 @@
+settings = {
+
+	orientation =
+	{
+		default = "landscape",
+		supported = { "landscapeRight", "landscapeLeft" }
+	},
+	
+	iphone =
+	{
+		plist =
+		{
+			UIApplicationExitsOnSuspend = true,
+			CFBundleIconFile = "Icon.png",
+			CFBundleIconFiles =
+			{
+				"Icon.png", 
+				"Icon@2x.png", 
+				"Icon-72.png", 
+			},
+		},
+	},
+
+	plugins =
+	{
+		["plugin.gameanalytics"] =
+		{
+			publisherId = "com.gameanalytics",
+		},
+	},
+}

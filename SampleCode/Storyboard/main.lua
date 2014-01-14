@@ -20,6 +20,8 @@ storyboard.gotoScene( "scene1", "fade", 300 )
 GA.useStoryboard = true -- hook storyboard and fill in area parameter in GA events.
 GA.submitStoryboardEvents = true -- submit scene changes and time spent on scenes.
 
+GA.runInSimulator = true
+
 GA.init ({
 	game_key   = 'paste_your_game_key_here',
 	secret_key = 'paste_your_secret_key_here',

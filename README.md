@@ -1,6 +1,6 @@
 GA-Corona-SDK-examples
 ======================
 
-Sample code for Game Analytics plugin for Corona SDK.
+Sample code for GameAnalytics plugin for Corona SDK.
 
 Use Corona build 1202 or above.

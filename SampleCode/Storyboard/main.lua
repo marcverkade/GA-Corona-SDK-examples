@@ -17,6 +17,9 @@ storyboard.gotoScene( "scene1", "fade", 300 )
 -- you setup storyboard and call storyboard.gotoScene
 ---------------------------------------------------------------------------------
 
+-- If iOS and no ads in the app then you should set the GA.iosIdentifierForVendor property to true.
+GA.iosIdentifierForVendor = false
+
 GA.useStoryboard = true -- hook storyboard and fill in area parameter in GA events.
 GA.submitStoryboardEvents = true -- submit scene changes and time spent on scenes.
 

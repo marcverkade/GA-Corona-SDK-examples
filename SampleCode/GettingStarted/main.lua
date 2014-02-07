@@ -10,6 +10,9 @@ local GA = require "plugin.gameanalytics"
 ---------------------------------------------
 -- Set some properties. 
 ---------------------------------------------
+-- If iOS and no ads in the app then you should set the GA.iosIdentifierForVendor property to true.
+GA.iosIdentifierForVendor   = false
+
 GA.isDebug                  = true
 GA.runInSimulator           = true
 
